@@ -6,7 +6,7 @@ public class ToyStoreDriver {
 		ToyStore specialToys = new ToyStore();
 		
 		Toy msThing  = specialToys.orderToy("doll");
-		
+	
 		System.out.println("\n---------------------\n");
 		
 		Toy raceCar = specialToys.orderToy("car");
@@ -14,5 +14,6 @@ public class ToyStoreDriver {
 		System.out.println("\n---------------------\n");
 		
 		Toy funnySounder = specialToys.orderToy("rattle");
+	
 	}
 }

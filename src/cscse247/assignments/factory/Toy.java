@@ -1,6 +1,6 @@
 package cscse247.assignments.factory;
 
-public abstract class Toy {
+public class Toy {
 
 	protected String name;
 	public void assemble() {
@@ -12,5 +12,4 @@ public abstract class Toy {
 	public  void priceToy() {
 		System.out.println("adding price on "+ name);
 	}
-	
 }
